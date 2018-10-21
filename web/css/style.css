@@ -1,0 +1,379 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/10/2018, 01:38:39
+    Author     : Fillipe Freire
+*/
+
+html {
+	font-family: DIN Pro,Century Gothic;
+	color: #fff;
+}
+
+h2 {
+	font-family: DIN Pro,Century Gothic;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none;
+}
+            
+body {
+    text-align:center;
+    /*background-color: #fff;*/
+  background-image: url(../imagens/fundo-galacia.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+    font-family:DIN Pro,sans-serif;
+}
+
+.principal {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 12%;
+    width: 97%;
+    position:relative;
+
+}
+
+.principal img {
+    margin-right: 40%;
+    margin-left: 40%;
+    width: 21%;
+}
+
+.contentMain {
+    /*background-color: #005aff;*/
+    width: 100%;
+    height: 5rem;
+}
+
+.contentMain h2 {
+    font-weight: bold;
+}
+
+.contentMain span {
+    font-weight: initial;
+}
+
+.contentMain a {
+    color: #fff;
+}
+
+.contentMain td {
+    transition: all 0.5s;
+    border-bottom: 2px solid #ff003c00;
+}
+
+.contentMain td:hover {
+    transition: all 0.5s;
+    background-color: #00011f;
+}
+
+.contentShow img {
+    z-index: 1;
+    left: 0px;
+    width: 100%;
+}
+
+.content {
+    background-color: #bb002c !important;
+    width: 100%;
+    height: 26rem;
+}
+
+.content td {
+    color: #bb002c !important
+}
+
+.content-product {
+    width: 150px;
+    height: 400px;
+    padding: 0px 10px;
+    margin: auto;
+    display: inline-block;
+}
+
+.content-product h4 {
+    margin: 5px 0px;
+    font-size: 12px;
+}
+
+.content-product h3 {
+  margin: 10px 0px;
+  color: #42000f;
+}
+
+.content-product input {
+    transition: all 0.4s;
+    margin: 2px 0px;
+    border-radius: 8px;
+    background-color: #e8e8e8;
+    border-color: #cacaca50;
+    font-size: 12px;
+    height: 40px;
+    font-weight: 720;
+    color: #bb002c;
+    border: none;
+}
+
+.content-product input:hover {
+  background-color: #bb002c;
+  color: #ffffff;
+  border-color: #ff990057;
+}
+
+.main_footer {
+      position: relative;
+      background-color: #000;
+      text-align: center;
+      padding: 1.875rem 0 3.625rem;
+}
+
+.main_footer {
+      padding: 3.1875rem 0;
+}
+
+.main_footer a {
+      color: #0008ff;
+}
+
+.container {
+      padding-left: .625rem;
+      padding-right: .625rem;
+      max-width: 83.125rem;
+      margin: auto;
+      position: relative;
+}
+
+.container {
+      padding: 0 .625rem;
+      max-width: 49.875rem;
+}
+
+.site_map {
+      text-align: left;
+      width: 100%;
+      margin: auto;
+}
+
+.site_map_section {
+      margin-right: 5.25rem;
+      margin-bottom: 0;
+      vertical-align: top;
+}
+
+.site_map_section_about, .site_map_section_social {
+      width: auto;
+      padding: 0;
+      display: inline-block;
+}
+
+.site_map_section_title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #0008ff;
+      margin: 0 0 .625rem;
+}
+
+.site_map_section a {
+      font-size: 1.0625rem;
+      display: block;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      background-color: transparent;
+}
+
+.site_map_section_channels, .site_map_section_earthnews {
+      display: inline-block;
+}
+
+.site_map_section_app-link {
+      width: auto;
+      padding: 0;
+      display: inline-block;
+      margin: 0 !important;
+}
+
+.screen_reader_text {
+  clip: rect(1px,1px,1px,1px);
+  position: absolute!important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.contentView {
+  width: 100%;
+  height: 5rem;
+  background-color: transparent;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contentH2 {
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid #001b80;
+  width: 40%;
+  margin-left: 30%;
+  font-size: 40px
+}
+
+.contentTable {
+  text-align: left; 
+  height: 300px; 
+  width: 1000px; 
+  border-radius: 30px; 
+  background-color: #00011f; 
+  margin: auto;
+}
+
+.inputTop {
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: #636363;
+  cursor: pointer;
+}
+
+.filter_button {
+    color: #ffffff;
+    line-height: 1.625rem;
+    background-color: transparent;
+    border-style: solid;
+    border-width: .0625rem;
+    border-radius: .3125rem;
+    font-size: 1.125rem;
+    padding: 0 .25rem;
+    margin-right: .625rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.filter_radio_input {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.filter_button:hover {
+      transition: all 0.5s;
+      color: #0008ff !important;
+      cursor: pointer;
+}
+
+.filter_button_online {
+      color: #0008ff;
+      line-height: 1.625rem;
+      background-color: transparent;
+      border-style: solid;
+      border-width: .0625rem;
+      border-radius: .3125rem;
+      font-size: 1.125rem;
+      padding: 0 .25rem;
+      margin-right: .625rem;
+      display: inline-block;
+      cursor: pointer;
+}
+
+.screen-reader-text {
+      clip: rect(1px,1px,1px,1px);
+      position: absolute!important;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+}
+
+.Org {
+    background-color: #000000b8;
+}
+
+.Org a:hover {
+    color: #0008ff;
+    text-decoration: navy;
+}
+
+@font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.eot?74272488');
+      src: url('../font/fontello.eot?74272488#iefix') format('embedded-opentype'),
+            url('../font/fontello.woff2?74272488') format('woff2'),
+            url('../font/fontello.woff?74272488') format('woff'),
+            url('../font/fontello.ttf?74272488') format('truetype'),
+            url('../font/fontello.svg?74272488#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+      font-family: "fontello";
+      speak: none;
+      font-style: normal;
+      font-weight: 400;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gamepad:before { 
+      content: '\f11b'; 
+}
+
+.icon-television:before { 
+      content: '\f26c'; 
+}
+
+.icon-movie:before { 
+      content: '\f040'; 
+}
+
+.icon-flow-merge:before {
+      content: '\e820'; 
+}
+
+.icon-book:before { 
+      content: '\e81b'; 
+}
+
+.icon-left-open:before { 
+      content: '\e82a'; 
+}
+
+.icon-right-open:before { 
+      content: '\e82b'; 
+}
+
+.icon-search:before { 
+      content: '\e829'; 
+}
+
+.icon-user:before { 
+  content: '\e800'; 
+}
+
+.icon-user-md:before {
+ content: '\f0f0';
+}
